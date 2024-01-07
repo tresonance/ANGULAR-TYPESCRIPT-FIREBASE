@@ -8,7 +8,10 @@
 in google search , search firebase or go to your firebase account.
 create new  project:
 step 1
-![CREATE NEW PROJECT](./images/firebase_1.png)
+<p>
+    <img src="./images/firebase_1.png"  />
+</p>
+![CREATE NEW PROJECT]()
 step 2
 ![CREATE NEW PROJECT](./images/firebase_2.png)
 step 3
