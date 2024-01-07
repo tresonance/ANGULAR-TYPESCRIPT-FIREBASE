@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "multichatroom": {
+      "hosting": {
+        "auth-service-tutorial": [
+          "multichatroom"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "multichatroom"
+  }
+}
