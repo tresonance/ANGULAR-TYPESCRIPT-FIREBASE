@@ -70,6 +70,9 @@ a -  ng new  auth-service-tutorial
 >- Do you want to enable Server-Side Rendering (SSR) and Static Site Generation: 
      choose: yes 
 
+COMMAND TO RUN THIS PROJECT: 
+rm -rf node_modules package-lock.json
+npm install --legacy-peer-deps
 
 ### 7 - LAUNCH THE SERVER
  >- http://localhost:4200
