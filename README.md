@@ -50,18 +50,8 @@ puis activer  le bouton (en haut à droite) et rensigner votre email, puis valid
 firebase login
 ```
 
-### 5 - INTEGRATE FIREBASE TO YOUR ANGULAR APPLICAION
-```
-ng add @angular/fire
-```
-If you're asked: choose ng deploy -- hosting, Authentication, Firestore, Realtime Database (choose them by simply moving and clicking space keyword as it is suggested) and for  second question choose your_project_name, europe-west1 (Belgium), https://multichatroom.web.app.
 
-Now you get Angularfire installed and normally added to your src/app/app.module.ts
-
-
-
-
-### 6 - CREATE YOUR ANGULAR PROJECT ON COMMANDE LINE
+### 5 - CREATE YOUR ANGULAR PROJECT ON COMMANDE LINE
 
 a -  ng new  auth-service-tutorial
 
@@ -74,8 +64,18 @@ COMMAND TO RUN THIS PROJECT:
 >- rm -rf node_modules package-lock.json
 >- npm install --legacy-peer-deps
 
-### 7 - LAUNCH THE SERVER
+### 6 - LAUNCH THE SERVER
  >- http://localhost:4200
+
+
+### 7 - INTEGRATE FIREBASE TO YOUR ANGULAR APPLICAION
+```
+ng add @angular/fire
+```
+If you're asked: choose ng deploy -- hosting, Authentication, Firestore, Realtime Database (choose them by simply moving and clicking space keyword as it is suggested) and for  second question choose your_project_name, europe-west1 (Belgium), https://multichatroom.web.app.
+
+Now you get Angularfire installed and normally added to your src/app/app.module.ts
+
 
 
 #### ANNEXE: Angular , Node, ypescript Compatible version
