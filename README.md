@@ -8,9 +8,9 @@
 in google search , search firebase or go to your firebase account.
 create new  project:
 step 1
-![CREATE NEW PROJECT](images/firebase_1.png)
+![CREATE NEW PROJECT](./images/firebase_1.png)
 step 2
-![CREATE NEW PROJECT](images/firebase_2.png)
+![CREATE NEW PROJECT](./images/firebase_2.png)
 step 3
 ![CREATE NEW PROJECT](images/firebase_3.png)
 step 4: choisissez default, puis cliquez: continuer
@@ -77,7 +77,7 @@ a -  ng new  auth-service-tutorial
 
 #### ANNEXE: Angular , Node, ypescript Compatible version
 
-![CREATE NEW PROJECT](images/angular_version_1.png)
-![CREATE NEW PROJECT](images/angular_version_2.png)
+![CREATE NEW PROJECT](./images/angular_version_1.png)
+![CREATE NEW PROJECT](./images/angular_version_2.png)
 ![CREATE NEW PROJECT](images/angular_version_3.png)
 ![CREATE NEW PROJECT](images/angular_version_4.png)
