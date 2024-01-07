@@ -71,8 +71,8 @@ a -  ng new  auth-service-tutorial
      choose: yes 
 
 COMMAND TO RUN THIS PROJECT: 
-rm -rf node_modules package-lock.json
-npm install --legacy-peer-deps
+>- rm -rf node_modules package-lock.json
+>- npm install --legacy-peer-deps
 
 ### 7 - LAUNCH THE SERVER
  >- http://localhost:4200
