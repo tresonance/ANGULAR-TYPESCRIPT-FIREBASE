@@ -48,6 +48,8 @@ puis activer  le bouton (en haut à droite) et rensigner votre email, puis valid
 
 Pour pouvoir permettre aussi que l'utilisateur s'authentifie avec mot de passe et email, il faudra activer le bouton ajouter un utilisateur:
 ![CREATE NEW PROJECT](images/firebase_12.png)
+puis activer envoi verificationLink par email
+![CREATE NEW PROJECT](images/firebase_13.png)
 ### 4 - NOW LOG IN FIREBASE FROM YOUR COMMAND LINE, Write the following command and hit enter
 ```
 firebase login
