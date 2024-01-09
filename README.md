@@ -45,6 +45,9 @@ choisissez google
 ![CREATE NEW PROJECT](images/firebase_10.png)
 puis activer  le bouton (en haut à droite) et rensigner votre email, puis valider
 ![CREATE NEW PROJECT](images/firebase_11.png)
+
+Pour pouvoir permettre aussi que l'utilisateur s'authentifie avec mot de passe et email, il faudra activer le bouton ajouter un utilisateur:
+![CREATE NEW PROJECT](images/firebase_12.png)
 ### 4 - NOW LOG IN FIREBASE FROM YOUR COMMAND LINE, Write the following command and hit enter
 ```
 firebase login

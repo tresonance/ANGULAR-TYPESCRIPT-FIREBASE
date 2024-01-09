@@ -58,7 +58,6 @@ interface UserMoreInfo {
   isIn_socket_room?:boolean | false; //SEE CAMERA COMPONENT
 }
 
-
 @Injectable({
   providedIn: 'root'
 })

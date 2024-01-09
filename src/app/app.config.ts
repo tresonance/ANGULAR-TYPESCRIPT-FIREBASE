@@ -18,6 +18,8 @@ export const appConfig: ApplicationConfig = {
     provideClientHydration(), 
     importProvidersFrom(provideFirebaseApp(() => initializeApp({"projectId":"multichatroom","appId":"1:263666048449:web:11357a94caa6b262e0e340","storageBucket":"multichatroom.appspot.com","apiKey":"AIzaSyAPPD1A5nSQIYfcryFr36_OSAhDotg8fIs","authDomain":"multichatroom.firebaseapp.com","messagingSenderId":"263666048449","measurementId":"G-9EWT98NRK2"}))), importProvidersFrom(provideAuth(() => getAuth())), importProvidersFrom(provideFirestore(() => getFirestore())),
     importProvidersFrom(provideDatabase(() => getDatabase())),
+    // TO PREVENT NULLINJECTION SERVICE: ERROR Error [NullInjectorError]: R3InjectorError(Standalone[_TestComponent])[_AuthenticationService ->
+    // ADD THIS
     { provide: FIREBASE_OPTIONS, useValue: fireBaseConfig.firebase },
   ]
 };
